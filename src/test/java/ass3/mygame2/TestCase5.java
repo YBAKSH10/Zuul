@@ -16,14 +16,14 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author Yamini and Umer Jahangir
  */
-public class TestCase4 {
+public class TestCase5 {
 
-    private static String getRoomCreation() {
+    private static String getItemCreation() {
     throw new UnsupportedOperationException("Not supported yet."); 
 //To change body of generated methods, choose Tools | Templates.
     }
     
-    public TestCase4() {
+    public TestCase5() {
     }
     
     @BeforeAll
@@ -47,8 +47,8 @@ public class TestCase4 {
     //
      @Test
      public void testPlayerItem() {
-     String expected = "Kitchen";
-     String actual=TestCase4.getRoomCreation();
+     String expected = "key";
+     String actual=TestCase5.getItemCreation();
      assertEquals(expected,actual);
           }
 }

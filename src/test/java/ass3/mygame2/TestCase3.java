@@ -13,7 +13,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- *
  * @author Yamini and Umer Jahangir
  */
 public class TestCase3 {
@@ -38,7 +37,6 @@ public class TestCase3 {
     @AfterEach
     public void tearDown() {
        }
-
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
